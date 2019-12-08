@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{e1e56d5b-e333-4b38-ac98-c64858e0f9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Days">
+      <UniqueIdentifier>{7aaad29c-efb1-416b-9a7c-196feca09a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inputs">
+      <UniqueIdentifier>{840bedc5-1c38-42f3-8d9b-e67ee4233f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Days\Day1">
+      <UniqueIdentifier>{12853d8e-7465-48f9-a086-af9028d4e6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Days\Day2">
+      <UniqueIdentifier>{fce2a692-ee9c-4443-a8a7-12a6613f5318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Days\Day6">
+      <UniqueIdentifier>{db9a1c3a-b6fa-414a-99ea-ed84a1bd86f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Days\Day3">
+      <UniqueIdentifier>{d2d55df6-6bfc-44b1-8ce7-b1b25d82b611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Days\Day4">
+      <UniqueIdentifier>{55f68e3d-5963-4b38-a731-000d90dc4a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\IntComputer">
+      <UniqueIdentifier>{488a5fc1-ce07-4fde-b317-46abe870e5e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Days\Day5">
+      <UniqueIdentifier>{e7957440-acb8-46f7-b21d-4ace057e32cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Days\Day7">
+      <UniqueIdentifier>{9c26e086-dc94-4023-a136-4a681c74ba65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Days\Day8">
+      <UniqueIdentifier>{1ce9d3e4-4bd7-44b8-a340-34bf93b5297a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day1\Day1.cpp">
+      <Filter>Days\Day1</Filter>
+    </ClCompile>
+    <ClCompile Include="Day3\Day3.cpp">
+      <Filter>Days\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="Day3\Command.cpp">
+      <Filter>Days\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="Day3\Wire.cpp">
+      <Filter>Days\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="Day4\Day4.cpp">
+      <Filter>Days\Day4</Filter>
+    </ClCompile>
+    <ClCompile Include="Day6\Day6.cpp">
+      <Filter>Days\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Day6\Tree.cpp">
+      <Filter>Days\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\IntComputer.hpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Day2\Day2.cpp">
+      <Filter>Days\Day2</Filter>
+    </ClCompile>
+    <ClCompile Include="Day5\Day5.cpp">
+      <Filter>Days\Day5</Filter>
+    </ClCompile>
+    <ClCompile Include="Day7\Day7.cpp">
+      <Filter>Days\Day7</Filter>
+    </ClCompile>
+    <ClCompile Include="Day8\Image.cpp">
+      <Filter>Days\Day8</Filter>
+    </ClCompile>
+    <ClCompile Include="Day8\Day8.cpp">
+      <Filter>Days\Day8</Filter>
+    </ClCompile>
+    <ClCompile Include="Day8\Layer.cpp">
+      <Filter>Days\Day8</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils\Solution.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Day.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Day1\Day1.hpp">
+      <Filter>Days\Day1</Filter>
+    </ClInclude>
+    <ClInclude Include="Day3\Day3.hpp">
+      <Filter>Days\Day3</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Point.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Day3\Intersection.hpp">
+      <Filter>Days\Day3</Filter>
+    </ClInclude>
+    <ClInclude Include="Day3\Command.hpp">
+      <Filter>Days\Day3</Filter>
+    </ClInclude>
+    <ClInclude Include="Day3\Line.hpp">
+      <Filter>Days\Day1</Filter>
+    </ClInclude>
+    <ClInclude Include="Day3\Wire.hpp">
+      <Filter>Days\Day3</Filter>
+    </ClInclude>
+    <ClInclude Include="Day4\Day4.hpp">
+      <Filter>Days\Day4</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Range.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Day4\Digits.hpp">
+      <Filter>Days\Day4</Filter>
+    </ClInclude>
+    <ClInclude Include="Day4\Range.hpp">
+      <Filter>Days\Day4</Filter>
+    </ClInclude>
+    <ClInclude Include="Day6\Day6.hpp">
+      <Filter>Days\Day6</Filter>
+    </ClInclude>
+    <ClInclude Include="Day6\OrbitMapData.hpp">
+      <Filter>Days\Day6</Filter>
+    </ClInclude>
+    <ClInclude Include="Day6\Leaf.hpp">
+      <Filter>Days\Day6</Filter>
+    </ClInclude>
+    <ClInclude Include="Day6\Tree.hpp">
+      <Filter>Days\Day6</Filter>
+    </ClInclude>
+    <ClInclude Include="Day2\Day2.hpp">
+      <Filter>Days\Day2</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\IntComputer\Memory.hpp">
+      <Filter>Utils\IntComputer</Filter>
+    </ClInclude>
+    <ClInclude Include="Day5\Day5.hpp">
+      <Filter>Days\Day5</Filter>
+    </ClInclude>
+    <ClInclude Include="Day7\Day7.hpp">
+      <Filter>Days\Day7</Filter>
+    </ClInclude>
+    <ClInclude Include="Day8\Day8.hpp">
+      <Filter>Days\Day8</Filter>
+    </ClInclude>
+    <ClInclude Include="Day8\Layer.hpp">
+      <Filter>Days\Day8</Filter>
+    </ClInclude>
+    <ClInclude Include="Day8\Image.hpp">
+      <Filter>Days\Day8</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\IntComputer\OpCodes.hpp">
+      <Filter>Utils\IntComputer</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\IntComputer\Processor.hpp">
+      <Filter>Utils\IntComputer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Inputs\inputDay1">
+      <Filter>Inputs</Filter>
+    </None>
+    <None Include="Inputs\inputDay3">
+      <Filter>Inputs</Filter>
+    </None>
+    <None Include="Inputs\inputDay4">
+      <Filter>Inputs</Filter>
+    </None>
+    <None Include="Inputs\inputDay6">
+      <Filter>Inputs</Filter>
+    </None>
+    <None Include="Inputs\inputDay2">
+      <Filter>Inputs</Filter>
+    </None>
+    <None Include="Inputs\inputDay5">
+      <Filter>Inputs</Filter>
+    </None>
+    <None Include="Inputs\inputDay7">
+      <Filter>Inputs</Filter>
+    </None>
+    <None Include="Inputs\inputDay8">
+      <Filter>Inputs</Filter>
+    </None>
+  </ItemGroup>
+</Project>
